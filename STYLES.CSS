@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+    background-color: #3fb2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+background: rgb(23, 196, 52);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+width: 300px;
+text-align: center;
+}
+input[type="text"] {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+button {
+width: 100%;
+padding: 10px;
+background-color: #0f9ad1;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+button:hover {
+background-color: #15b300;
+}
+#suggestionsList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#suggestionsList li {
+padding: 10px;
+cursor: pointer;
+background-color: #f9f9f9;
+border-bottom: 1px solid #ddd;
+}
+
+#suggestionsList li:hover {
+background-color: #e0e0e0;
+}
+#weatherInfo {
+margin-top: 20px;
+text-align: left;
+}
